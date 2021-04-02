@@ -22,6 +22,7 @@ export default function City(props) {
                         <span className="city__max">min: {props.tempMin}°</span>
                     </div>
                     <p className="city__felt">felt: {props.feedsLike}°</p>
+                    <span></span>
                     <div className="city__footer">
                         <ul className="city__list">
                             <li className="city__item"><img src={wind} className="city__item-img" alt="sunset"/><span> wind {props.wind}km/h</span></li>
