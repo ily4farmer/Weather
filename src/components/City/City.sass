@@ -1,15 +1,65 @@
 .city
-    padding-top: 100px
-    &-block
-        color: #fff
-        background: rgba(255, 255, 255, 0.35)
+    position: relative
+    margin-top: 45px
+    &__bg
+        width: 501px
+        height: 410px
+        background: rgba(255, 255, 255, 0.48)
         border-radius: 13.9839px
-        display: flex
-        flex-direction: column
+        filter: blur(1.5px)
+        position: relative
+    &-block
+        max-width: 297px;
+        max-height: 328px
+        border: 1px solid #E5F8FC
+        border-radius: 13.9839px
+        position: absolute
+        top: 38px
+        width: 501px
+        height: 389px
+        text-align: center
     &__header
         display: flex
-        align-items: center
+        flex-direction: column
         text-align: center
     &__name
-        font-weight: 700;
-        font-size: 40px
+        margin-top: 25px
+        margin-bottom: 0
+        font-weight: 600
+        font-size: 24px
+    &__country
+        margin-top: 10px
+        font-weight: 600
+        font-size: 16px
+        margin-bottom: 0
+    &__temp
+        font-weight: 600
+        font-size: 70px
+        margin-top: -5px
+        margin-bottom: 0
+    &__difference
+        display: flex
+        justify-content: center
+    &__max
+        margin-left: 10px
+    &__max,&__min
+        font-weight: normal
+        font-size: 18px
+    &__felt
+        margin-top: 10px
+        font-size: 22px
+        margin-bottom: 0
+    &__footer
+        padding-top: 10px
+        display: flex
+        justify-content: space-evenly
+        align-items: center
+    &__item
+        display: flex
+        justify-content: start
+        align-items: flex-end
+        align-content: flex-end
+        align-self: flex-end
+        margin-bottom: 5px
+    &__item-img
+            margin-right: 10px

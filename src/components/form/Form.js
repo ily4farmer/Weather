@@ -7,7 +7,7 @@ export default function Form(props) {
         <section className="form">
             <div className="container">
                 <form onSubmit={props.weather} className="form-block">
-                    <input type="text" name="city" className="form__input" placeholder="Город"/>
+                    <input type="text" name="city" className="form__input"/>
                     <button className="form__btn"><img src={search} alt="search"/></button>
                 </form>
             </div>
